@@ -1,0 +1,67 @@
+VCS:  Version  control systems
+https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
+ 
+ *need to have clear idea about  workflow 
+ *dev-ops eng will merge programs on server 
+ 
+ VCS /SVN (Source code  managment )
+ 
+   1.Centralized  server /SVN
+    
+    *  to connect  to centralized  server  always Network connection  to repository is mandatory 
+    * at end project only one copy would be generated 
+    Disadvantages : 
+     * No version / backups would  be  provided 
+   If a  Dev- ops  engineer  opt  for SVN / centralized    they should have 
+
+      (1) Backup  copy-  would be done perodically
+      (2)mirror copy - 	 Instantly 
+
+   2.distributed  server    
+   
+     A main  server   would  have  space allocations  for   all departments    and git also need to be installed in  every ones computer  
+	  all cmputer would  have an update 
+	  Devleoper  also  need  have lgit   at in his system 
+	   
+	   server and logger copy is must 
+	   Advantage all will have  updated  code using hash  code  technique   they compresss
+	   
+  
+  A project folder   --------------------------> server (local GIT)---------------------------------->server  (git / github)
+  
+    to move a file    from folder to    intaizse  to stagging area  using command ----> " GIT ADD"
+	
+	  To  push file   from 
+	  
+	   * create a folder /directory  on Loacl computer  
+	   * create files 
+	   * add contents(contents is placed in  files)
+	   * We need to intalize
+	   * we use  command "GIT  ADD"
+       * we  need   to commit " GIT COMMIT"
+       * to push to mian server  " GIT Push "
+
+   *commands : 
+
+    ls- listing (unix)
+    dir	-  creation of directory(dos command) 
+	touch- creates a files
+	Cat - display content of the file  
+	Clear- clears screen
+	 Vim " file name "-  opens in a VIm editior  in linux
+	 click on  i "insert mode " ---- enter text 
+	 "esc" -  will quit exit   insert mode 
+	 :w -- it will write 
+	 :q- - it will quit 
+	 :wq-write and quit
+	 
+	 To come out of edit mde   use- CRTl+d
+	 ls- list of  files 
+	 (list filewith  permissions can either  ber rep  in   $ls-l  (or)ll)
+	 
+	 TO create a local repository 
+	 
+	 $git init 
+	 init- intiate
+	  $ls -a ---shows list of all files 
+	  $ls- al - shows all files    recordes 
